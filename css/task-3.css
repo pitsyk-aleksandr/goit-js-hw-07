@@ -1,0 +1,44 @@
+/* common.css */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+/* task-3 */
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+#name-input {
+    width: 360px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 1px solid #808080;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2E2F42;
+    margin-bottom: 16px;
+}
+
+h1, #name-output{
+    font-size: 24px;
+    font-weight: 600;
+    color: #2E2F42;
+}
